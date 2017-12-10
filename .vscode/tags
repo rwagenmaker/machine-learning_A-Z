@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+X	../Part 1 - Data Preprocessing/categorical_data.py	/^X = dataset.iloc[:, :-1].values$/;"	kind:variable	line:12
+X	../Part 1 - Data Preprocessing/categorical_data.py	/^X = onehotencoder.fit_transform(X).toarray()$/;"	kind:variable	line:28
+X	../Part 1 - Data Preprocessing/data_preprocessing.py	/^X = dataset.iloc[:, :-1].values$/;"	kind:variable	line:12
+X	../Part 1 - Data Preprocessing/data_preprocessing.py	/^X = onehotencoder.fit_transform(X).toarray()$/;"	kind:variable	line:29
+X	../Part 1 - Data Preprocessing/data_preprocessing_template.py	/^X = dataset.iloc[:, :-1].values$/;"	kind:variable	line:10
+X	../Part 1 - Data Preprocessing/missing_data.py	/^X = dataset.iloc[:, :-1].values$/;"	kind:variable	line:10
+categorical_data.py	../Part 1 - Data Preprocessing/categorical_data.py	1;"	kind:file	line:1
+data_preprocessing.py	../Part 1 - Data Preprocessing/data_preprocessing.py	1;"	kind:file	line:1
+data_preprocessing_template.py	../Part 1 - Data Preprocessing/data_preprocessing_template.py	1;"	kind:file	line:1
+dataset	../Part 1 - Data Preprocessing/categorical_data.py	/^dataset = pd.read_csv('Data.csv')$/;"	kind:variable	line:10
+dataset	../Part 1 - Data Preprocessing/data_preprocessing.py	/^dataset = pd.read_csv('Data.csv')$/;"	kind:variable	line:10
+dataset	../Part 1 - Data Preprocessing/data_preprocessing_template.py	/^dataset = pd.read_csv('Data.csv')$/;"	kind:variable	line:9
+dataset	../Part 1 - Data Preprocessing/missing_data.py	/^dataset = pd.read_csv('Data.csv')$/;"	kind:variable	line:9
+imputer	../Part 1 - Data Preprocessing/categorical_data.py	/^imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)$/;"	kind:variable	line:17
+imputer	../Part 1 - Data Preprocessing/categorical_data.py	/^imputer = imputer.fit(X[:, 1:3])$/;"	kind:variable	line:18
+imputer	../Part 1 - Data Preprocessing/data_preprocessing.py	/^imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)$/;"	kind:variable	line:17
+imputer	../Part 1 - Data Preprocessing/data_preprocessing.py	/^imputer = imputer.fit(X[:, 1:3])$/;"	kind:variable	line:18
+imputer	../Part 1 - Data Preprocessing/missing_data.py	/^imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)$/;"	kind:variable	line:15
+imputer	../Part 1 - Data Preprocessing/missing_data.py	/^imputer = imputer.fit(X[:, 1:3])$/;"	kind:variable	line:16
+interactive_plot.py	../interactive_plot.py	1;"	kind:file	line:1
+iris	../python_data_visualization.py	/^iris = pd.read_csv("..\/input\/Iris.csv")  # the iris dataset is now a Pandas DataFrame$/;"	kind:variable	line:13
+labelencoder_X	../Part 1 - Data Preprocessing/categorical_data.py	/^labelencoder_X = LabelEncoder()$/;"	kind:variable	line:24
+labelencoder_X	../Part 1 - Data Preprocessing/data_preprocessing.py	/^labelencoder_X = LabelEncoder()$/;"	kind:variable	line:26
+labelencoder_y	../Part 1 - Data Preprocessing/categorical_data.py	/^labelencoder_y = LabelEncoder()$/;"	kind:variable	line:32
+labelencoder_y	../Part 1 - Data Preprocessing/data_preprocessing.py	/^labelencoder_y = LabelEncoder()$/;"	kind:variable	line:32
+missing_data.py	../Part 1 - Data Preprocessing/missing_data.py	1;"	kind:file	line:1
+onehotencoder	../Part 1 - Data Preprocessing/categorical_data.py	/^onehotencoder = OneHotEncoder(categorical_features=[0])$/;"	kind:variable	line:27
+onehotencoder	../Part 1 - Data Preprocessing/data_preprocessing.py	/^onehotencoder = OneHotEncoder(categorical_features=[0])$/;"	kind:variable	line:28
+python_data_visualization.py	../python_data_visualization.py	1;"	kind:file	line:1
+x	../interactive_plot.py	/^x = np.linspace(0, 20, 100)$/;"	kind:variable	line:6
+y	../Part 1 - Data Preprocessing/categorical_data.py	/^y = dataset.iloc[:, 3].values$/;"	kind:variable	line:13
+y	../Part 1 - Data Preprocessing/categorical_data.py	/^y = labelencoder_y.fit_transform(y)/;"	kind:variable	line:33
+y	../Part 1 - Data Preprocessing/data_preprocessing.py	/^y = dataset.iloc[:, 3].values$/;"	kind:variable	line:13
+y	../Part 1 - Data Preprocessing/data_preprocessing.py	/^y = labelencoder_y.fit_transform(y)$/;"	kind:variable	line:33
+y	../Part 1 - Data Preprocessing/data_preprocessing_template.py	/^y = dataset.iloc[:, 3].values$/;"	kind:variable	line:11
+y	../Part 1 - Data Preprocessing/missing_data.py	/^y = dataset.iloc[:, 3].values$/;"	kind:variable	line:11

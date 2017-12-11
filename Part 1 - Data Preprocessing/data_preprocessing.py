@@ -24,11 +24,10 @@ X[:, 1:3] = imputer.transform(X[:, 1:3])
 # Encoding the Independent Variable
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
-"""
 # Encode the categorical variables : 0-France, 1-Germany, 2-Spain
 labelencoder_X = LabelEncoder()
 X[:, 0] = labelencoder_X.fit_transform(X[:, 0])
-onehotencoder = OneHotEncoder(categorical_features=[0])
+onehotencoder = OneHotEncoder(categorical_features=[0])  # the column number of the features that are categorical
 X = onehotencoder.fit_transform(X).toarray()
 # Encoding the Dependent Variable
 labelencoder_y = LabelEncoder()
